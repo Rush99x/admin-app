@@ -38,7 +38,7 @@ const Login = () => {
   return (
     <div className="py-5" style={{ background: "#ffd333", minHeight: "100vh" }}>
       <div className="my-5 mx-2 mx-md-auto p-4 bg-white rounded-3" style={{ maxWidth: "400px" }}>
-        <h3 className="text-center">Login</h3>
+        <h3 className="text-center title">Login</h3>
         <p className="text-center">Login to your account to continue.</p>
         <form action="">
           <CustomInput type="text" label="Email Address" id="email" />
