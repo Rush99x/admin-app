@@ -50,8 +50,10 @@ const Addblog = () => {
             </p>
           </Dragger>
           <div className="mt-4">
-            <CustomInput type="text" label="Enter Blog Title" />
+            <CustomInput type="text" label="Enter Blog Title"   />
           </div>
+          <div> <br></br></div>
+          
           <select name="" className="form-control py-3 mb-3" id="">
             <option value="">Select Blog Category</option>
           </select>
