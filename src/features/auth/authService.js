@@ -44,7 +44,7 @@ const getOrder = async (id) => {
   );
 
   return response.data;
-};
+}; 
 
 const authService = {
   login,
@@ -53,3 +53,4 @@ const authService = {
 };
 
 export default authService;
+// /getorderbyuser/:id
